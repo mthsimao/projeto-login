@@ -5,3 +5,47 @@
     --rosa: #be1fa4;
     --amarelado: #a8b81e;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    background-color: var(--roxo);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000056;
+    width: 265px;
+    height: 500px;
+}
+
+.imagem {
+    background: var(--roxo) url(../img/building.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    display: block;
+    height: 200px;
+}
+
+.formulario {
+    display: block;
+    padding: 15px;
+}
