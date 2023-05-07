@@ -8,6 +8,7 @@
 
     .login {
         width: 80vw;
+        height: 310px;
     }
     
     .imagem {
@@ -23,6 +24,19 @@
     .formulario p{
         font-size: .9em;
     }
+
+    .campo {
+        margin-top: 15px;
+    }
+
+    .campo input{
+        width: 100%;
+    }
+
+    form > input[type=submit], .botao {
+        width: 100%;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -32,6 +46,7 @@
 
     .login {
         width: 950px;
+        height: 320px;
     }
 
     .imagem {
@@ -46,5 +61,17 @@
 
     .formulario p {
         font-size: 1em;
+    }
+    
+    .campo {
+        margin-top: 15px;
+    }
+
+    .campo input{
+        width: 100%;
+    }
+
+    form > input[type=submit], .botao {
+        width: 100%;
     }
 }

@@ -29,15 +29,15 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #00000056;
     width: 265px;
-    height: 500px;
+    height: 515px;
     transition: .3s width, .3s height;
-    transition-timing-function: ease;
+    transition-timing-function: ease; 
+    transform: translate(-50%, -50%);
 }
 
 .imagem {
@@ -59,5 +59,69 @@ main {
 }
 
 .formulario p {
+    font-size: .8em;
+}
+
+.campo {
+    padding: 2px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.campo span {
+    font-size: 1.8em;
+}
+
+.campo input {
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.campo label {
+    display: none;
+}
+
+form > input[type=submit] {
+    background-color: var(--rosa);
+    display: block;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    transition: all .2s ease-in-out;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--roxo);
+}
+
+.botao {
+    background-color: rgb(179, 179, 179);
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 7px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+.botao:hover {
+    background-color: rgb(138, 138, 138);
+}
+
+.botao span {
     font-size: .8em;
 }
