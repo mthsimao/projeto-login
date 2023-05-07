@@ -10,14 +10,18 @@
         width: 80vw;
     }
     
-    .login div.imagem {
+    .imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
-    .login div.formulario {
+    .formulario {
         float: right;
         width: 70%;
+    }
+
+    .formulario p{
+        font-size: .9em;
     }
 }
 
@@ -30,13 +34,17 @@
         width: 950px;
     }
 
-    .login div.imagem {
-        float: left;
+    .imagem {
+        float: right;
         width: 40%;
         height: 100%;
     }
-    .login div.formulario {
-        float: right;
+    .formulario {
+        float: left;
         width: 60%;
+    }
+
+    .formulario p {
+        font-size: 1em;
     }
 }
